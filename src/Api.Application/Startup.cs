@@ -31,16 +31,16 @@ namespace application
                     Version = "v1",
                     Title = "Api CRUD Users",
                     Description = "Arquitetura DDD",
-                    TermsOfService = new Uri("www.linkedin.com/in/gabriel-maia-b86039186"),
+                    TermsOfService = new Uri("https://linkedin.com/in/gabriel-maia-b86039186"),
                     Contact = new OpenApiContact
                     {
                         Name = "Gabriel Novais Maia",
                         Email = "gabriel.gnm@gmail.com",
-                        Url = new Uri("www.linkedin.com/in/gabriel-maia-b86039186")
+                        Url = new Uri("https://github.com/GabrielGNM/API-CRUD")
                     },
                     License = new OpenApiLicense
                     {
-                        Name = "Termo de Licença de Uso",
+                        Name = "Como Usar",
                         Url = new Uri("https://github.com/GabrielGNM/API-CRUD")
                     }
                 });
@@ -58,7 +58,7 @@ namespace application
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de API com AspNetCore 3.1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API com AspNetCore 3.1");
                 c.RoutePrefix = string.Empty;
             });
 
