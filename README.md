@@ -4,7 +4,7 @@ By: Gabriel Novais Maia
 
 Api desenvolvida junto ao Curso de NETCore do professor Marcos Fabricio Rosa
 
-Esta Api Realiza o CRUD de um usuário com os dados de Nome e Email em seu JSON
+Esta Api Realiza o CRUD de um usuário com os dados de Nome e Email em seu JSON, utilizando a arquitetura DDD
   
 	Exemplo: {
         "name": "Gabriel",
