@@ -41,7 +41,7 @@ namespace application
                     License = new OpenApiLicense
                     {
                         Name = "Termo de Licença de Uso",
-                        Url = new Uri("http://www.mfrinfo.com.br")
+                        Url = new Uri("https://github.com/GabrielGNM/API-CRUD")
                     }
                 });
             });
