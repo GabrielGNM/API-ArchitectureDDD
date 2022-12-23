@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9IS1XL1JwAIrPEXI2quUjpoIfqudzJlHX7L42+163phCtLRXjSuUTwGSxhoJphy4VnIllGGVFC4yD4F/+hAzgA==",
+  "dgSpecHash": "n8Gty6/DdtDD8MIfvNjAZucaJ7VD5NDGrAfWUrxvgiMMnY89WfLGQ15lI+s3HGls9G/hKDpdZK3xtXhu41/VHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\Downloads\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gabri\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
