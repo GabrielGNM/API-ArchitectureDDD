@@ -35,6 +35,7 @@ Para que essa API funcionasse utilizei o MySQL até o 12 Commit com o usuário p
   * Delete - http://localhost:5000/api/users/"UserID" - Delete o usuário informado da Tabela
 
 # SQL Server 2017
+  Commit 14 Api Convertida para SQL server
   :
 use dbapi
 select * from [user]
