@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Application\\application.csproj": {}
+    "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Application\\application.csproj": {}
   },
   "projects": {
-    "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Application\\application.csproj": {
+    "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Application\\application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Application\\application.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Application\\application.csproj",
         "projectName": "application",
-        "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Application\\application.csproj",
-        "packagesPath": "C:\\Users\\bsi95109\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Application\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Application\\application.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bsi95109\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,14 +33,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.CrossCutting\\CrossCutting.csproj"
+              "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.CrossCutting\\CrossCutting.csproj"
               },
-              "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj"
+              "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -75,24 +75,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.30, 3.1.30]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -105,20 +87,20 @@
         }
       }
     },
-    "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\bsi95109\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.CrossCutting\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bsi95109\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -134,14 +116,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj"
+              "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj"
+              "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -176,20 +158,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -199,20 +167,20 @@
         }
       }
     },
-    "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj": {
+    "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\bsi95109\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Data\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bsi95109\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -228,8 +196,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -276,20 +244,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -299,20 +253,20 @@
         }
       }
     },
-    "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\bsi95109\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bsi95109\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -356,20 +310,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -379,20 +319,20 @@
         }
       }
     },
-    "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj": {
+    "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\bsi95109\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Service\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bsi95109\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -408,11 +348,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj"
+              "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Source\\Arquitecture\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\gabri\\Documents\\Curso.NETCore\\Codes\\Api_ArquiteruaDDD\\API-ArchitectureDDD\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -443,20 +383,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
