@@ -13,51 +13,35 @@ C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComple
 C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
 C:\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
-C:\Users\gabri\Downloads\curso_api_netcore\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
-C:\Source\Arquitecture\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
-C:\Users\gabri\Documents\Curso.NETCore\Codes\Api_ArquiteruaDDD\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\gabri\Downloads\curso_api_netcore (3)\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\gabri\Documents\Curso.NETCore\Codes\API-ArchitectureDDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache

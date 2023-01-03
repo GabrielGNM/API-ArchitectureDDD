@@ -6,13 +6,16 @@ namespace Api.CrossCutting.Mappings
 {
     public class DtoToModelProfile : Profile
     {
-        public DtoToModelProfile(){
+        public DtoToModelProfile()
+        {
             CreateMap<UserModel, UserDto>()
-            .ReverseMap();
+                .ReverseMap();
             CreateMap<UserModel, UserDtoCreate>()
-            .ReverseMap();
+                .ReverseMap();
             CreateMap<UserModel, UserDtoUpdate>()
-            .ReverseMap();
+                .ReverseMap();
+
         }
+
     }
 }

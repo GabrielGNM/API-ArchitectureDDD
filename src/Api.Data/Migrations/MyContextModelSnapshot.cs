@@ -48,11 +48,11 @@ namespace Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("a063ee25-9ef3-4e95-99ae-127b36f3ffd8"),
-                            CreateAt = new DateTime(2022, 12, 24, 18, 1, 17, 141, DateTimeKind.Local).AddTicks(3902),
-                            Email = "gabriel.gnm@gmail.com",
+                            Id = new Guid("ef256aac-2b6e-48e5-a598-814a1e468b65"),
+                            CreateAt = new DateTime(2020, 7, 18, 9, 49, 14, 477, DateTimeKind.Local).AddTicks(1482),
+                            Email = "mfrinfo@mail.com",
                             Name = "Administrador",
-                            UpdateAt = new DateTime(2022, 12, 24, 18, 1, 17, 142, DateTimeKind.Local).AddTicks(1640)
+                            UpdateAt = new DateTime(2020, 7, 18, 9, 49, 14, 477, DateTimeKind.Local).AddTicks(9678)
                         });
                 });
 #pragma warning restore 612, 618

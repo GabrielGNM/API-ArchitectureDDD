@@ -1,20 +1,20 @@
 using System;
-using System.Collections.Generic;
 using Api.CrossCutting.DependencyInjection;
-using Api.CrossCutting.Mappings;
-using Api.Data.Context;
 using Api.Domain.Security;
-using AutoMapper;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Collections.Generic;
+using Api.CrossCutting.Mappings;
+using AutoMapper;
+using Api.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace application
 {
@@ -30,9 +30,10 @@ namespace application
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
+
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesRepository(services);
-
             var config = new AutoMapper.MapperConfiguration(cfg =>
             {
                 cfg.AddProfile(new DtoToModelProfile());
@@ -49,7 +50,7 @@ namespace application
             var tokenConfigurations = new TokenConfigurations();
             new ConfigureFromConfigurationOptions<TokenConfigurations>(
                 Configuration.GetSection("TokenConfigurations"))
-                .Configure(tokenConfigurations);
+                     .Configure(tokenConfigurations);
             services.AddSingleton(tokenConfigurations);
 
             services.AddAuthentication(authOptions =>
@@ -62,19 +63,28 @@ namespace application
                 paramsValidation.IssuerSigningKey = signingConfigurations.Key;
                 paramsValidation.ValidAudience = tokenConfigurations.Audience;
                 paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
+
+                // Valida a assinatura de um token recebido
                 paramsValidation.ValidateIssuerSigningKey = true;
+
+                // Verifica se um token recebido ainda é válido
                 paramsValidation.ValidateLifetime = true;
+
+                // Tempo de tolerância para a expiração de um token (utilizado
+                // caso haja problemas de sincronismo de horário entre diferentes
+                // computadores envolvidos no processo de comunicação)
                 paramsValidation.ClockSkew = TimeSpan.Zero;
             });
 
+            // Ativa o uso do token como forma de autorizar o acesso
+            // a recursos deste projeto
             services.AddAuthorization(auth =>
             {
                 auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
-                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme‌​)
                     .RequireAuthenticatedUser().Build());
             });
 
-            services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
@@ -142,14 +152,15 @@ namespace application
 
             if (Environment.GetEnvironmentVariable("MIGRATION").ToLower() == "APLICAR".ToLower())
             {
-                using (var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+                using (var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>()
+                                                            .CreateScope())
                 {
-                    using (var context = service.ServiceProvider.GetService<MyContext>()){
+                    using (var context = service.ServiceProvider.GetService<MyContext>())
+                    {
                         context.Database.Migrate();
                     }
                 }
             }
-
         }
     }
 }

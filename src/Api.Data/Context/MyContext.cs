@@ -23,11 +23,12 @@ namespace Api.Data.Context
                 {
                     Id = Guid.NewGuid(),
                     Name = "Administrador",
-                    Email = "gabriel.gnm@gmail.com",
+                    Email = "mfrinfo@mail.com",
                     CreateAt = DateTime.Now,
-                    UpdateAt = DateTime.Now
+                    UpdateAt = DateTime.Now,
                 }
             );
+
         }
 
     }
