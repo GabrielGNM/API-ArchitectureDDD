@@ -1,4 +1,3 @@
-
 using System;
 
 namespace Api.Domain.Models
@@ -11,25 +10,28 @@ namespace Api.Domain.Models
             get { return _id; }
             set { _id = value; }
         }
+
         private string _name;
         public string Name
         {
             get { return _name; }
             set { _name = value; }
         }
+
         private string _email;
         public string Email
         {
             get { return _email; }
             set { _email = value; }
         }
-        private DateTime _creatAt;
-        public DateTime CreatAt
+
+        private DateTime _createAt;
+        public DateTime CreateAt
         {
-            get { return _creatAt; }
+            get { return _createAt; }
             set
             {
-                _creatAt = value == null ? DateTime.UtcNow : value;
+                _createAt = value == null ? DateTime.UtcNow : value;
             }
         }
 
@@ -39,8 +41,5 @@ namespace Api.Domain.Models
             get { return _updateAt; }
             set { _updateAt = value; }
         }
-        
-        
-        
     }
 }

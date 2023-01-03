@@ -16,17 +16,17 @@ namespace Api.Service.Services
     public class LoginService : ILoginService
     {
         private IUserRepository _repository;
+        public SigningConfigurations _signingConfigurations;
+        public TokenConfigurations _tokenConfigurations;
+        private IConfiguration _configuration { get; }
 
-        private SigningConfigurations _singningConfigurations;
-        private TokenConfigurations _tokenConfigurations;
-        private IConfiguration _configuration { get; set; }
         public LoginService(IUserRepository repository,
                             SigningConfigurations signingConfigurations,
                             TokenConfigurations tokenConfigurations,
                             IConfiguration configuration)
         {
             _repository = repository;
-            _singningConfigurations = signingConfigurations;
+            _signingConfigurations = signingConfigurations;
             _tokenConfigurations = tokenConfigurations;
             _configuration = configuration;
         }
@@ -34,7 +34,6 @@ namespace Api.Service.Services
         public async Task<object> FindByLogin(LoginDto user)
         {
             var baseUser = new UserEntity();
-
             if (user != null && !string.IsNullOrWhiteSpace(user.Email))
             {
                 baseUser = await _repository.FindByLogin(user.Email);
@@ -43,26 +42,26 @@ namespace Api.Service.Services
                     return new
                     {
                         authenticated = false,
-                        message = "Falha ao authenitcar"
+                        message = "Falha ao autenticar"
                     };
                 }
                 else
                 {
-                    var identity = new ClaimsIdentity(
-                        new GenericIdentity(baseUser.Email),
+                    ClaimsIdentity identity = new ClaimsIdentity(
+                        new GenericIdentity(user.Email),
                         new[]
                         {
-                            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), //jti o id do token
+                            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                             new Claim(JwtRegisteredClaimNames.UniqueName, user.Email),
                         }
                     );
 
-                    DateTime createDate = DateTime.Now;
-                    DateTime expirationDate = createDate + TimeSpan.FromSeconds(_tokenConfigurations.Seconds); //seta o tempo de expiração do token com o Json configurado "60"
+                    DateTime createDate = DateTime.UtcNow;
+                    DateTime expirationDate = createDate + TimeSpan.FromSeconds(_tokenConfigurations.Seconds);
 
                     var handler = new JwtSecurityTokenHandler();
                     string token = CreateToken(identity, createDate, expirationDate, handler);
-                    return SuccessObject(createDate, expirationDate, token, user);
+                    return SuccessObject(createDate, expirationDate, token, baseUser);
                 }
             }
             else
@@ -70,7 +69,7 @@ namespace Api.Service.Services
                 return new
                 {
                     authenticated = false,
-                    message = "Falha ao authenitcar"
+                    message = "Falha ao autenticar"
                 };
             }
         }
@@ -81,7 +80,7 @@ namespace Api.Service.Services
             {
                 Issuer = _tokenConfigurations.Issuer,
                 Audience = _tokenConfigurations.Audience,
-                SigningCredentials = _singningConfigurations.SigningCredentials,
+                SigningCredentials = _signingConfigurations.SigningCredentials,
                 Subject = identity,
                 NotBefore = createDate,
                 Expires = expirationDate,
@@ -89,20 +88,21 @@ namespace Api.Service.Services
 
             var token = handler.WriteToken(securityToken);
             return token;
-
         }
 
-        private object SuccessObject(DateTime createDate, DateTime expirationDate, string token, LoginDto user)
+        private object SuccessObject(DateTime createDate, DateTime expirationDate, string token, UserEntity user)
         {
             return new
             {
                 authenticated = true,
-                created = createDate.ToString("yyyy-MM-dd HH:mm:ss"),
+                create = createDate.ToString("yyyy-MM-dd HH:mm:ss"),
                 expiration = expirationDate.ToString("yyyy-MM-dd HH:mm:ss"),
-                acessToken = token,
+                accessToken = token,
                 userName = user.Email,
-                message = "Usuário Logado"
+                name = user.Name,
+                message = "Usuário Logado com sucesso"
             };
         }
+
     }
 }

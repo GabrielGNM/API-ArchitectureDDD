@@ -19,13 +19,15 @@ namespace Api.CrossCutting.DependencyInjection
             if (Environment.GetEnvironmentVariable("DATABASE").ToLower() == "SQLSERVER".ToLower())
             {
                 serviceCollection.AddDbContext<MyContext>(
-                    options => options.UseSqlServer(Environment.GetEnvironmentVariable("DB_CONNECTION")));
+                    options => options.UseSqlServer(Environment.GetEnvironmentVariable("DB_CONNECTION"))
+                );
             }
-            else{
+            else
+            {
                 serviceCollection.AddDbContext<MyContext>(
-                    options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION")));
+                    options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"))
+                );
             }
-
         }
     }
 }

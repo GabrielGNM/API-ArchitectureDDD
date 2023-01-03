@@ -1,7 +1,8 @@
-using Microsoft.Extensions.DependencyInjection;
-using Api.Data.Context;
 using System;
+using Api.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Xunit;
 
 namespace Api.Data.Test
 {
@@ -13,24 +14,26 @@ namespace Api.Data.Test
         }
     }
 
-    public class DbTest : IDisposable
+    public class DbTeste : IDisposable
     {
         private string dataBaseName = $"dbApiTest_{Guid.NewGuid().ToString().Replace("-", string.Empty)}";
-
         public ServiceProvider ServiceProvider { get; private set; }
-        public DbTest()
+
+        public DbTeste()
         {
-            var serviceColletion = new ServiceCollection();
-            serviceColletion.AddDbContext<MyContext>(o =>
+            var serviceCollection = new ServiceCollection();
+            serviceCollection.AddDbContext<MyContext>(o =>
                 o.UseMySql($"Persist Security Info=True;Server=localhost;Database={dataBaseName};User=root;Password=mudar@123"),
-                    ServiceLifetime.Transient
+                  ServiceLifetime.Transient
             );
-            ServiceProvider = serviceColletion.BuildServiceProvider();
+
+            ServiceProvider = serviceCollection.BuildServiceProvider();
             using (var context = ServiceProvider.GetService<MyContext>())
             {
                 context.Database.EnsureCreated();
             }
         }
+
         public void Dispose()
         {
             using (var context = ServiceProvider.GetService<MyContext>())
